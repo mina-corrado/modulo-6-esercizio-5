@@ -1,0 +1,17 @@
+# ESERCIZI
+
+## EPIC Blog API
+
+In questo nuovo passaggio, abiliteremo l’upload delle immagini e l’invio di email.
+
+Il backend dovrebbe includere queste nuove routes:
+
+– PATCH /authors/:authorId/avatar, carica un’immagine per l’autore specificato e salva l’URL creata da cloudinary nel database.
+– PATCH /blogPosts/:blogPostId/cover, carica un’immagine per il post specificato dall’id. Salva l’URL creato da Cloudinary nel post corrispondente.
+
+Invia un email all’autore quando pubblica un nuovo blog post e quando un nuovo autore si registra sulla piattaforma.
+
+Extra:
+
+– Validazione dei file in tipo e grandezza
+– Un po’ di CSS e HTML nelle email
